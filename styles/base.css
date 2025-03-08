@@ -89,7 +89,6 @@ figcaption {
 p {
     margin-left: 5px;
     font-family: "Libre Franklin", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
 }
@@ -105,7 +104,6 @@ main {
 
 h1, h2 {
     font-family: "Noto Serif", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     font-style: normal;
     font-variation-settings: "wdth" 100;
