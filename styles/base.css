@@ -1,0 +1,100 @@
+header {
+    background-color: #054a91;
+    text-align: center;
+    align-content: center;
+    font-size: larger;
+    color: white;
+}
+
+nav {
+    display: flex;
+    background-color: #c3e8bd;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+a {
+    font-size:x-large;
+    color: black;
+}
+
+body {
+    background-color: #8a8d91;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    margin: 15px;
+    background-color: aliceblue;
+    border-radius: 2rem;
+    max-width: 60%;
+}
+
+li {
+    margin-bottom: 30px;
+}
+
+
+.card a {
+    color: blue;
+    font-size: large;
+}
+
+.aboutMe {
+    display: flex;
+    border-bottom: solid 2px;
+}
+
+.state {
+    display: flex;
+}
+
+img {
+    width: 200px;
+}
+
+h2 {
+    text-decoration: underline;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: #054a91;
+    padding: 45px;
+    text-align: center;
+    color: white;
+}
+
+figcaption {
+    text-align: center;
+}
+
+.card-head {
+    background-color: #054a91;
+    padding: 15px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+p {
+    margin-left: 5px;
+}
+
+main {
+    justify-items: center;
+    justify-content: center;
+}
+
+.content {
+    width: 1000px;
+}
