@@ -28,7 +28,7 @@ studentReport.forEach(function (item) {
 for (let key in studentReport) {
     if (studentReport[key] < LIMIT) {
         console.log(studentReport[key])
-        
+
     }
         
 }
@@ -43,3 +43,23 @@ for (let i = 1; i <= DAYS; i++) {
     output[0].appendChild(item);
 }
 
+const username = "";
+const welcomeMsg = document.getElementById("welcome-msg");
+
+welcomeMsg.textContent += username === "" ? 'Guest' : username;
+
+const article = document.querySelector('article');
+
+article.innerHTML = 'innerHtml supports <strong>HTML</strong> tags. The textContent does not';
+
+article.style.textAlign = 'right';
+
+article.setAttribute('class', 'active'); //articleElement.classList.add('Active');
+
+const paragragh = document.createElement('p');
+
+article.appendChild(paragragh);
+article.append(paragragh, 'Hello World Addition!');
+
+article.removeChild(paragragh);
+article.remove();
