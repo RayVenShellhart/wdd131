@@ -54,7 +54,7 @@ header {
     grid-template-columns: 1fr 1fr;
 }
 
-h1 {
+h2 {
     text-align: center;
 }
 
@@ -104,6 +104,6 @@ figcaption {
     text-align: center;
 }
 
-h2 {
+h1 {
     font-size: larger;
 }
