@@ -1,0 +1,109 @@
+:root {
+    --background-color: #c59849;
+}
+
+.navigation {
+    list-style: none;
+}
+
+.hamburgerMenu {
+    display: flex;
+    justify-content: right;
+    margin-right: 5px;
+}
+
+#menu::before {
+    content: "≡";
+    text-decoration: none;
+    font-size: 45PX;
+    font-weight: 800;
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+.show li {
+    display: block;
+}
+
+nav {
+    display: flex;
+    justify-content:space-evenly;
+    justify-content: left;
+    background-color: transparent;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+nav a:hover {
+    text-decoration: overline;
+}
+
+header {
+    display: grid;
+    align-items: center;
+    font-size: x-large;
+    background-color: var(--background-color);
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+p {
+        font-family: "Big Shoulders", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+body {
+    background-color: #3f403f;
+}
+
+body {
+    background-color: #f0f7ee;
+}
+
+footer {
+    background-color: var(--background-color);
+    padding: 45px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    height: auto;
+}
+
+.navigation li {
+    display: none;
+}
+
+.show li {
+    display: block;
+}
+
+figcaption {
+    text-align: center;
+}
+
+h2 {
+    font-size: larger;
+}
