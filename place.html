@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="desciption" content="WDD 131 Dynamic Web Fundementals | RayVen Shellhart | Country page for learning web dev">
+    <title>Country page | RayVen Shellhart</title>
+    <script src="scripts/places.js" defer></script>
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Washington</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1000px)" srcset="images/space-needle.webp">
+                <img src="images/snoqualmie.webp" alt="snoqualmie pass WA">
+            </picture>
+            <section class="data">
+                <div class="small-header">
+                    <h2>Data</h2>
+                </div>
+                <p>Area: 71,300 mi<sup>2</sup></p>
+                <p>Population: 7.958 million</p>
+                <p>Capital: Olympia</p>
+                <p>Languages: English, Spanish, Chinese and more</p>
+                <p>Currency: USD</p>
+                <p>Time Zone: Pacific</p>
+                <p>Calling Code: 206, 253, 360, 425, 509 and 564</p>
+                <p>Internet Tld: .wa</p>
+            </section>
+            <section class="weather">
+                <div class="small-header">
+                    <h2>Weather</h2>
+                    <img src="images/sun.svg" alt="sun">
+                </div>
+                <p>Temperature: 47.1°f</p>
+                <p>Conditions: Rain</p>
+                <p>Wind speed: 15mph</p>
+                <p id="windChill"></p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🐓 RayVen Kenneth Shellhart🐓 Washington State</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

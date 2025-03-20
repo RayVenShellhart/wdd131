@@ -1,0 +1,43 @@
+:root {
+    --background-color: #537A5A;
+    --headingText: #ffffff;
+}
+
+* {
+    text-align: center;
+}
+
+header, footer {
+    background-color: var(--background-color);
+    padding: 25px;
+    color: var(--headingText);
+}
+
+body {
+    background-color: blue;
+}
+
+section {
+    background-color: var(--headingText);
+    padding: 5px;
+}
+
+
+
+.small-header img{
+    width: 55px;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 800;
+}

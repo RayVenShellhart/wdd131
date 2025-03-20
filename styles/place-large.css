@@ -1,0 +1,47 @@
+@media screen and (min-width: 1000px) {
+    .small-header {
+        display: flex;
+        background-color: blue;
+        color: white;
+        text-indent: 15px;
+        margin-left: -15px;
+        width: 30rem;
+        box-shadow: 0 0 30px #111;
+    }
+
+    .weather {
+        position: absolute;
+        bottom: 5rem;
+        left: 25px;
+        box-shadow: 0 0 30px #111;
+        height: 28%;
+    }
+
+    .data {
+        position: absolute;
+        bottom: 30rem;
+        right: 25px;
+        box-shadow: 0 0 30px #111;
+        height: 43%;
+        opacity: 0.58;
+    }
+
+    .hero {
+        width: auto;
+        position: relative;
+        object-fit: cover;
+    }
+
+    .hero picture {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    section {
+        width: 40%;
+        height: 40%;
+        opacity: 0.7;
+    }
+}
