@@ -12,10 +12,11 @@
 
     .weather {
         position: absolute;
-        bottom: 5rem;
-        left: 25px;
+        bottom: 30rem;
+        right: 25px;
         box-shadow: 0 0 30px #111;
         height: 28%;
+        opacity: 0.58;
     }
 
     .weather img {
@@ -29,11 +30,11 @@
 
     .data {
         position: absolute;
-        bottom: 30rem;
-        right: 25px;
+        bottom: 5rem;
+        left: 25px;
         box-shadow: 0 0 30px #111;
         height: 43%;
-        opacity: 0.58;
+        
     }
 
     .hero {
