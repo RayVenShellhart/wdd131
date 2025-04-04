@@ -1,6 +1,4 @@
-
-
-
+// I gave the review.html its own js.
 // basic footer content
 
 const year = document.querySelector("#year")
