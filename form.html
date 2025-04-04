@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="RayVen Shellhart">
+    <meta name="description" content="Form page for WDD 131 Dynamic Web Fundementals RayVen Shellhart">
+    <link rel="stylesheet" href="styles/form.css">
+    <script src="scripts/form.js" defer></script>
+    <title>Forms | RayVen Shellhart</title>
+</head>
+<body>
+    <header>
+        <h1>Product Review</h1>
+    </header>
+    <main>
+        <form method="get" action="review.html" class="product-form">
+            <fieldset>
+                <label>Product Name*
+                    <select name="product" id="product-selection" required>
+                        <option value="">Select a Product &#9662;</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <div>Overall Rating*</div>
+                <div class="overall">
+                    <label><input type="radio" name="rating" id="one" value="one" required>&starf;</label>
+                    <label><input type="radio" name="rating" id="two" value="two" required>&starf; &starf;</label>
+                    <label><input type="radio" name="rating" id="three" value="three" required>&starf; &starf; &starf;</label>
+                    <label><input type="radio" name="rating" id="four" value="four" required>&starf; &starf; &starf; &starf;</label>
+                    <label><input type="radio" name="rating" id="five" value="five" required>&starf; &starf; &starf; &starf; &starf;</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <label>Date of Installation*<input type="date" id="date-choice" name="installation" required></label>
+            </fieldset>
+            <fieldset>
+                <div>Which features did you find useful in the product</div>
+                <div class="italic">(Check all that apply)</div>
+                <label><input type="checkbox" id="designing" name="design" value="features">Design</label>
+                <label><input type="checkbox" id="durable" name="durability" value="features">Durability</label>
+                <label><input type="checkbox" id="ease" name="ease of use" value="features">Ease of Use</label>
+                <label><input type="checkbox" id="preform" name="performance" value="features">Performance</label>
+            </fieldset>
+            <fieldset>
+                <label><span class="fix">Message Review <span class="optional">(Optional)</span></span><textarea name="message" id="message-input" placeholder="Type Here"></textarea></label>
+                <label><span class="fix">Your Name <span class="optional">(Optional)</span></span><input type="text" name="name" placeholder="John Smith"></label>
+            </fieldset>
+            <input type="submit" value="Submit Review">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🐓 RayVen Kenneth Shellhart🐓 Washington State</p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

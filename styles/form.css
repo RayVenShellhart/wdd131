@@ -1,0 +1,117 @@
+header {
+    background-color:thistle;
+    padding: 25px;
+    text-align: center;
+}
+
+.product-form {
+    background-color: azure;
+}
+
+.product-form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.product-form input[type="text"],
+.product-form textarea,
+.product-form input[type="date"],
+.product-form input[type="number"] {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.product-form select {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: black;
+    width: 100%;
+    max-width: 430px;
+    appearance: none;
+}
+
+.product-form label {
+    display: block;
+    padding-top: .9rem;
+}
+
+.product-form label .optional {
+    color: blue;
+    margin-left: 5px;
+    font-size: smaller;
+}
+
+.product-form label .fix {
+    display: flex;
+}
+
+.product-form .italic {
+    font-style: italic;
+}
+
+.product-form textarea {
+    height: 70px;
+}
+
+.product-form input[type="submit"] {
+    border: 1px solid black;
+    background-image: linear-gradient(blue, darkblue);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 425px;
+    box-shadow: 0 8px 16px grey, 0 6px 20px 0 darkgrey;
+    margin-left: 1rem;
+}
+
+.product-form input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.overall {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.overall label {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.product-form input:required {
+    border-bottom: solid 8px red;
+}
+
+.product-form input:required:valid {
+    border-bottom: solid 8px green;
+}
+
+.product-form select:required {
+    border-bottom: solid 8px red;
+}
+
+.product-form select:valid {
+    border-bottom: solid 8px green;
+}
+
+
+
+footer {
+    background-color: thistle;
+    padding: 25px;
+    text-align: center;
+}
