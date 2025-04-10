@@ -1,0 +1,95 @@
+@media screen and (min-width: 1000px) {
+    #menu {
+        display: none;
+                
+    }
+
+    .navigation a {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .navigation {
+        flex-direction: row;
+    }
+
+    header {
+        padding: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header img {
+        display: flex;
+        width: 5%;
+    }
+
+    .history {
+        display: grid;
+        align-items: center;
+    }
+
+    .history h2 {
+        grid-row: 1/2;
+        grid-column: 1/2;
+    }
+
+    .history p{
+        grid-row: 2/3;
+        grid-column: 1/2;
+        line-height: 3rem;
+    }
+
+    .history figure {
+        grid-row: 2/3;
+        grid-column: 2/3;
+        width: 100%;
+        height: auto;
+        margin-left: 85px;
+    }
+
+    .history img{
+        width: 60%;
+        height: auto;
+    }
+
+    .hero div {
+        position: absolute;
+    }
+
+    .hero {
+        width: auto;
+        position: relative;
+        object-fit: cover;
+    }
+
+    .hero picture {
+        display: block;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .hero section {
+        position: absolute;
+        bottom: 5rem;
+        left: 25px;
+        box-shadow: 0 0 30px #111;
+        background-color: #8D94BA;
+        padding: 15px;
+        opacity: 0.9;
+    }
+
+    .product-filter {
+        display: flex;
+        flex-direction: row;
+        margin-left: 20px;
+    }
+
+    .product-filter li{
+        margin: 55px;
+    }
+
+
+}

@@ -1,0 +1,155 @@
+:root {
+    --colors: #8D94BA;
+    --background-color: #87677B;
+    --font-color: black;
+    --font-color2: white;
+    text-align: center;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+h2,
+h1,
+h3 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+}
+
+header,
+footer {
+    background-color: var(--background-color);
+    padding: 15px;
+    color: white;
+}
+
+main {
+    background-color: var(--colors);
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+}
+
+.history {
+    line-height: 25px;
+    margin-left: 20px;
+}
+
+
+.history img {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+
+#menu {
+    font-size: 2rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 2.5rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "X";
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    color: #fff;
+}
+
+.navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    color: white;
+    font-size: larger;
+}
+
+.navigation a:hover {
+    font-weight: 700;
+    text-decoration: overline;
+}
+
+.open a {
+    display: block;
+}
+
+.stuff {
+    margin: 0.5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    background-color: #bed;
+    max-width: 580px;
+    height: 100vh;
+}
+
+body {
+    background-color: darkslategrey;
+}
+
+.hero img {
+    width: 100%;
+}
+
+header img {
+    display: none;
+}
+
+.product-filter a {
+    text-decoration: underline;
+    font-size: large;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: overline;
+}
+
+.product-filter {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: center;
+    width: 100%;
+    list-style: none;
+    margin-left: -40px;
+}
+
+.product-filter li {
+    margin-top: 15px;
+}
+
+
+
+.products a {
+    text-decoration: underline;
+    color: #000;
+    font-size: larger;
+}
+
+.products a:hover {
+    text-decoration: overline;
+}
+
+.products img {
+    width: 40%;
+    height: auto;
+}
