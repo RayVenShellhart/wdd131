@@ -147,14 +147,13 @@ function AirfryerCard(filteredProducts) {
         let productPrice = document.createElement("P");
         let img = document.createElement("img")
         let productLink = document.createElement("p")
-        
         productName.textContent = products.name;
         productStars.innerHTML = `<span class="label">Rating:</span> ${products.stars}`;
         productPrice.innerHTML = `<span class="label">Price:</span> ${products.price}`;
         productLink.innerHTML = `<a href="${products.link}">Link</a>`;
         img.setAttribute("src", products.imageUrl);
         img.setAttribute("alt", `${products.imageUrl}`);
-        img.setAttribute("loading", "lazy");
+
         img.setAttribute("width", "400px");
         img.setAttribute("height", "250px");
         
