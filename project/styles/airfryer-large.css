@@ -100,4 +100,11 @@
         width: 20%;
     }
 
+    main {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        max-width: 1500px;
+    }
+
 }

@@ -41,11 +41,16 @@ main {
     margin-left: 20px;
 }
 
+.history img {
+    width: 30%;
+    height: auto;
+}
+
 
 .history figure {
-    width: 40%;
+    width: 100%;
     height: auto;
-    margin-right: 20px;
+    margin-right: 40px;
 }
 
 #menu {
