@@ -91,5 +91,13 @@
         margin: 55px;
     }
 
+    .hero2 img{
+        width: 100%;
+        height: auto;
+    }
+
+    .products img {
+        width: 20%;
+    }
 
 }
